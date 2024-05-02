@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: brown;
+    border-radius: 10px;
+
+}
+
+h2{
+    color:red;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: greenyellow;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #007bff; 
+  }
+#about{
+    text-align: center;
+}
+#about p{
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+#about h2 {
+    text-align: center;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  #about p.summary {
+    font-style: italic;
+  }
+  #projects h2{
+    text-align: center;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#skills h2{
+    text-align: center;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#contact h2{
+    text-align: center;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+  .resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+  }
+
+  .resume-link:hover {
+    background-color: #0056b3;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+section img{
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 200px; 
+    height: auto; 
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+  }

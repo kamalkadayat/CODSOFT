@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(104, 96, 96);
+    min-width: 250px;
+  }
+
+.Container{
+    text-align: center;
+    background-color: cornflowerblue;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.todo{
+    text-align: center;
+}
+.Container #myInput {
+    width: calc(100% - 75px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.Container #addBtn{
+    padding: 8px 15px;
+    background-color: green;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Container #addBtn:hover{
+    background-color: rgb(74, 141, 141);
+}
+ul {
+    margin: 0;
+    padding: 0;
+  }
+ul li {
+    position: relative;
+    padding: 10px;
+    max-width: 600px;
+    margin: 2px auto;
+    list-style-type: none;
+    background: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+ul li:hover{
+    background-color: burlywood;
+}
+.removeBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right; /* Align the button to the right */
+  }
+  
+  .removeBtn:hover {
+    background-color: #c82333;
+  }
